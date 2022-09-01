@@ -1,2 +1,2 @@
-# BoE_ARP_insurance_risk_dection
-BoE_ARP_insurance_risk_dection
+# BoE_ARP_insurance_risk_detections
+BoE_ARP_insurance_risk_detections
