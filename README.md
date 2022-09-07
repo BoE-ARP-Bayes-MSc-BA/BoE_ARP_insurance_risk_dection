@@ -1,5 +1,9 @@
+
+
 # BoE_ARP_insurance_risk_dection
-The dissertation in collaboration with Bank of England to apply NLP to detect insurance firms risks
+In order to identify risks of the 59 insurer clients of the Bank of England, we implemented four main models: Latent Dirichlet Allocation (LDA), Dynamic Topic Models (DTM), Sentiment Analysis, and Generalized Additive Model (GAM).
+We found that patterns of predictable events, such as catastrophes, disasters, and economic risks, could be seen for the common risks. There were, however, some unforeseeable events that did not frequently appear in history, such as political movements and pandemics. 
+We successfully categorised relevant topics that could have impact on the stock price movements into 10 groups; Natural Damage & Catastrophe, Life Insurance, Financial Ratio Analysis, Corporate Transparency, Macroeconomic Uncertainty & Forex Exchange, Business Development, Stakeholders & Voting, Technology Investment, Internal & External Policy, and Japanese Insurers. 
 
 ## Methodology
 <img width="814" alt="image" src="https://user-images.githubusercontent.com/61338647/188922377-e82457e3-8582-455e-8408-75587d0dd7e0.png">
@@ -57,6 +61,7 @@ The dissertation in collaboration with Bank of England to apply NLP to detect in
 - H1: There is a significant relationship between the sentiment score of the topic in earning call transcripts and stock price movement.
 <img width="429" alt="image" src="https://user-images.githubusercontent.com/61338647/188925778-f8de74cf-4d64-4f77-af5a-c10ea2ffe8ef.png">
 <img width="380" alt="image" src="https://user-images.githubusercontent.com/61338647/188925808-836e9969-fa04-4514-a257-a1ed5d75c09c.png">
+
 - After trying to interpret significant topics, this researcher would choose to study further more in stock price movement at two days after conference call as it has the highest Pseudo R2 and interpretable topics
 - Results show that there are 23 significant variables (p_value < 0.05), which mean that our hypothesis has been proven.
 - Partial dependence plots illustrated the non-linear relation between each significant sentiment topics and stock price movement
