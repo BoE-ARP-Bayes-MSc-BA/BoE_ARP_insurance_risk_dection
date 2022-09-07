@@ -12,7 +12,7 @@ The dissertation in collaboration with Bank of England to apply NLP to detect in
 ## Result of dynamic topic modelling (DTM) 
 - Analyzed extreme probability values at specific time points.
 - Early time (2011 to 2014), Middle time (2015 to 2018), Recent time (2019 to 2021)
-<img width="574" alt="image" src="https://user-images.githubusercontent.com/61338647/188923414-1b695027-946f-4567-91fa-e2bcfd52577e.png">
+![MD-DTM_1](https://user-images.githubusercontent.com/61338647/188923939-82c06a13-7349-42bd-97e2-4f012529521c.png)
 <img width="643" alt="image" src="https://user-images.githubusercontent.com/61338647/188923463-479b9263-45d4-42b9-b271-ccef1b921f9e.png">
 
 - Frequently raised in the earnings call:
