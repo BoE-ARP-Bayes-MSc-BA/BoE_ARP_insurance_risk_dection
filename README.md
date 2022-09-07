@@ -34,11 +34,34 @@ The dissertation in collaboration with Bank of England to apply NLP to detect in
 - Processed the documents to join the tokens associated with bi-grams or tri-grams
 - Wrapped the post-processed documents in corpus and input them into the LDA model 
 <img width="836" alt="image" src="https://user-images.githubusercontent.com/61338647/188924815-4fd35d79-cafc-4661-8625-a85e64c957b4.png">
+
 - words like “capital”, “growth”, and “company” are redundant  
 - remove high-frequency words for:
   - Management Discussion of 50 words
   - Questions and Answers of 150 words
 <img width="651" alt="image" src="https://user-images.githubusercontent.com/61338647/188924965-6825ef3a-fffd-47c5-97a2-32e7bdc710ea.png">
+
+- Coherence score is not always a good indicator (Nikolenko, Koltcov and Koltsova, 2015)
+- Can help us identify elbow points 
+
+<img width="912" alt="image" src="https://user-images.githubusercontent.com/61338647/188925186-634b38db-c280-4a9a-aacd-b4173e487279.png">
+
+## Sentiment model results
+1. Accuracy score in 74%
+2. Balance precision for both classes
+3. High precision related to the low false positive rate
+<img width="470" alt="Screenshot 2022-09-07 at 5 01 44 PM" src="https://user-images.githubusercontent.com/61338647/188925548-14ae8a23-fd7c-46ed-941d-54e1536a66e8.png">
+
+## GAM regression model
+- H0: There is no relationship between the sentiment score of the topic in earning call transcripts and stock price movement.
+- H1: There is a significant relationship between the sentiment score of the topic in earning call transcripts and stock price movement.
+<img width="429" alt="image" src="https://user-images.githubusercontent.com/61338647/188925778-f8de74cf-4d64-4f77-af5a-c10ea2ffe8ef.png">
+<img width="380" alt="image" src="https://user-images.githubusercontent.com/61338647/188925808-836e9969-fa04-4514-a257-a1ed5d75c09c.png">
+- After trying to interpret significant topics, this researcher would choose to study further more in stock price movement at two days after conference call as it has the highest Pseudo R2 and interpretable topics
+- Results show that there are 23 significant variables (p_value < 0.05), which mean that our hypothesis has been proven.
+- Partial dependence plots illustrated the non-linear relation between each significant sentiment topics and stock price movement
+
+
 
 
 
