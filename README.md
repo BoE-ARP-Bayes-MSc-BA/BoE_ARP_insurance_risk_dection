@@ -1,6 +1,6 @@
 
 
-# BoE_ARP_insurance_risk_dection
+# BoE_ARP_insurance_risk_detections
 In order to identify risks of the 59 insurer clients of the Bank of England, we implemented four main models: Latent Dirichlet Allocation (LDA), Dynamic Topic Models (DTM), Sentiment Analysis, and Generalized Additive Model (GAM).
 We found that patterns of predictable events, such as catastrophes, disasters, and economic risks, could be seen for the common risks. There were, however, some unforeseeable events that did not frequently appear in history, such as political movements and pandemics. 
 We successfully categorised relevant topics that could have impact on the stock price movements into 10 groups; Natural Damage & Catastrophe, Life Insurance, Financial Ratio Analysis, Corporate Transparency, Macroeconomic Uncertainty & Forex Exchange, Business Development, Stakeholders & Voting, Technology Investment, Internal & External Policy, and Japanese Insurers. 
